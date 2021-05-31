@@ -1,0 +1,84 @@
+/* BOx is created for add image in perticular portion of web page */
+.box{
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+/* Add background image */
+    background-image: url(images/casper.jpg);
+    /* To set image in that perticular box size */
+    background-size:cover;
+    /* This size is for image size height and width */
+    background-size: 53% 115%;
+}
+/* This is for set casper-Logo image */
+img{
+    transform: translateY(100px);
+    margin-left: 700px;
+}
+p{
+    color:  #000066;
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: serif;
+    text-align: center;
+    margin-left: 40px;
+    transform: translateY(10px);
+}
+h1{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    color: #000066;
+    font-weight: bolder;
+    transform: translateY(10px);
+}
+/* Button for shop */
+.button{
+    margin-left: 735px;
+    transform: translateY(70px);
+    background-color: #000066;
+    color: white;
+    font-size: 10px;
+    padding:10px;
+    border-radius: 4px;
+    border: hidden;
+}
+/* Bottom line present at the end of page  */
+.bottom{
+    color:  #000066;
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: serif;
+    text-align: center;
+    margin-left: 40px;
+    transform: translateY(130px);
+    margin-left:0px;
+}
+h3{
+    text-align: center;
+    color: #000066;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* table headingss */
+th{
+   text-transform: uppercase;
+   font-size: 16px;
+}
+/* Table rows */
+tr{
+    font-size: 12px;
+    font-weight: bold;
+}
+table{
+    color:#000066 ;
+}
+footer{
+    background-color:  #28283e;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+   padding-top: 8px;
+   padding-bottom: 3px;
+    font-size: 11px;
+}
